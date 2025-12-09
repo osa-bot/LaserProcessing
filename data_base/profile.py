@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 class Profile():
-    """
-    A class for processing and analyzing profile data.
-    """
+  """
+  A class for processing and analyzing profile data.
+  """
 
 
   def auto_profile(profile, full_data):
@@ -127,8 +127,8 @@ class Profile():
         None
     """
 
-      result_frame = result_frame[result_frame.columns[::-1]][::-1]
-      result_frame.to_csv('profile.csv')
+    result_frame = result_frame[result_frame.columns[::-1]][::-1]
+    result_frame.to_csv('profile.csv')
 
 
   def plot_check():
